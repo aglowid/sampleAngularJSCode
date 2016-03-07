@@ -4,7 +4,7 @@
 var app = angular.module('sampleApp', []);
 
 app.controller('sampleController', ['$scope', 'UserService', '$location',
-    function ($scope, UsersFactory, UserFactory, $location) {
+    function ($scope, UserService, $location) {
 
 	$scope.users = [];
 	$scope.user = {};
