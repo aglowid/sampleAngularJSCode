@@ -1,66 +1,68 @@
-angular.module('sampleApp')
-  .controller('sampleController', ['$scope', '$rootScope', '$location', 'sampleService','ngDialog', '$filter',
-    function($scope, $rootScope, $location, sampleService, ngDialog, $filter) 
-    {
 
-		$scope.products = [];
-		$scope.getProducts = function(){
-			sampleService.getProducts().then(function(data){					
-					 $scope.products=data.data;					 
-				  });
-		}		
+	
 
-		$scope.addProduct=function()
-		{			
-			sampleService.addProduct($scope.product).then(function(data){	
-				if(data.status===200)
-				 {			
-					sampleService.getProducts().then(function(data){					
-						 $scope.products=data.data;					 
-					  });
-					$scope.product={};
+var app = angular.module('sampleApp', []);
+
+app.controller('sampleController', ['$scope', 'UserService', '$location',
+    function ($scope, UsersFactory, UserFactory, $location) {
+
+	$scope.users = [];
+	$scope.user = {};
+	$scope.mode = 'LIST';
+
+	$scope.getAllUsers = function(){
+		UserService.getAllUsers(function(data){
+			$scope.users = data.data;
+		});
+	}
+
+
+	$scope.add = function(){
+		$scope.mode = 'ADD';
+		$scope.user = {};
+	}
+
+
+	$scope.edit = function(userId){
+		$scope.mode = 'EDIT';
+		UserService.getUser({id: userId}, function(data){
+			if(data.status == 200){
+				$scope.user = data.data;
+			}
+		});
+	}
+
+	$scope.delete = function(userId){
+		UserService.deleteUser({id: userId}, function(data){
+			if(data.status == 200){
+				$scope.getAllUsers();
+				$scope.user = {};
+			}
+		});
+	}
+        
+	$scope.save = function(){
+		if($scope.mode == 'EDIT'){
+			UserService.updateUser({id: $scope.user.id}, function(data){
+				if(data.status == 200){
+					$scope.getAllUsers();
+					$scope.user = {};
+					$scope.mode = 'LIST';
 				}
 			});
 		}
-
-		$scope.deleteProduct=function(product)
-		{
-									 
-			 sampleService.deleteProduct(product.productID).then(function(data){
-				 if(data.status===200)
-				 {
-					 sampleService.getProducts().then(function(data){					
-						 $scope.products=data.data;					 
-					  });
-				 }		 
-			  });
-			 
+		else{
+			UserService.createUser(function(data){
+				if(data.status == 200){
+					$scope.getAllUsers();
+					$scope.user = {};
+					$scope.mode = 'LIST';
+				}
+			});
 		}
+	}
+	
+	$scope.getAllUsers();
 
-		$scope.getProduct=function(product)
-		{
-									 
-			 sampleService.getProduct(product.productID).then(function(data){
-				 if(data.status===200)
-				 {
-					$scope.product = data.data;
-				 }		 
-			  });
-			 
-		}
+    }]);
 
-		$scope.editProduct=function()
-		{
-									 
-			 sampleService.editProduct($scope.product).then(function(data){
-				 if(data.status===200)
-				 {
-					 sampleService.getProducts().then(function(data){					
-						 $scope.products=data.data;					 
-					  });
-					$scope.product={};
-				 }		 
-			  });
-			 
-		}
-	});
