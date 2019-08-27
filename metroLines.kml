@@ -1,0 +1,2604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Moscow Metro Subway  Underground</name>
+    <description><![CDATA[Moscow Metro. Moscow Subway lines. Moscow Underground.<br>All stations with lines of Moscow Metro.<br>]]></description>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5000-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0000FF-5000-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-33CC00-4000-normal">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-33CC00-4000-highlight">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-33CC00-4000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-33CC00-4000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-33CC00-4000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-33CCFF-5000-normal">
+      <LineStyle>
+        <color>ffffcc33</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-33CCFF-5000-highlight">
+      <LineStyle>
+        <color>ffffcc33</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-33CCFF-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-33CCFF-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-33CCFF-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-666666-5000-normal">
+      <LineStyle>
+        <color>ff666666</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-666666-5000-highlight">
+      <LineStyle>
+        <color>ff666666</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-666666-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-666666-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-666666-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-66FFFF-5000-normal">
+      <LineStyle>
+        <color>ffffff66</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-66FFFF-5000-highlight">
+      <LineStyle>
+        <color>ffffff66</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-66FFFF-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-66FFFF-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-66FFFF-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-990000-5000-normal">
+      <LineStyle>
+        <color>ff000099</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-990000-5000-highlight">
+      <LineStyle>
+        <color>ff000099</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-990000-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-990000-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-990000-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-99FF99-5000-normal">
+      <LineStyle>
+        <color>ff99ff99</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-99FF99-5000-highlight">
+      <LineStyle>
+        <color>ff99ff99</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-99FF99-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-99FF99-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-99FF99-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-99FFFF-5000-normal">
+      <LineStyle>
+        <color>ffffff99</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-99FFFF-5000-highlight">
+      <LineStyle>
+        <color>ffffff99</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-99FFFF-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-99FFFF-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-99FFFF-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CC66CC-5000-normal">
+      <LineStyle>
+        <color>ffcc66cc</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-CC66CC-5000-highlight">
+      <LineStyle>
+        <color>ffcc66cc</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-CC66CC-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CC66CC-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CC66CC-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-4000-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF0000-4000-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF0000-4000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-4000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-4000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF9900-5000-normal">
+      <LineStyle>
+        <color>ff0099ff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF9900-5000-highlight">
+      <LineStyle>
+        <color>ff0099ff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF9900-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF9900-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF9900-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF33-5000-normal">
+      <LineStyle>
+        <color>ff33ffff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFFF33-5000-highlight">
+      <LineStyle>
+        <color>ff33ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFFF33-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF33-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF33-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Line 1</name>
+        <description><![CDATA[Sokolnicheskaya Line, <br>Number of stations - 19<br>Route - 26,1 km]]></description>
+        <styleUrl>#line-FF0000-4000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            37.73546,55.81411,0
+            37.7449,55.80282,0
+            37.71735,55.79664,0
+            37.67974,55.78902,0
+            37.66611,55.78009,0
+            37.65602,55.77519,0
+            37.64894,55.76896,0
+            37.63744,55.76542,0
+            37.62611,55.75972,0
+            37.615664,55.756897,0
+            37.61045,55.75244,0
+            37.59477,55.73595,0
+            37.58068,55.72745,0
+            37.56311,55.72317,0
+            37.56053,55.71193,0
+            37.53514,55.69321,0
+            37.50507,55.67701,0
+            37.4829,55.66388,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Ulitsa Podbel'skogo]]></name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.734947,55.812665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cherkizovskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.744732,55.802873,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Preobrazhenskaya ploshhad</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.717352,55.796553,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sokolniki</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.679714,55.789066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Krasnoselskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.665939,55.779904,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Komsomolskaya</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh" height="200" width="auto" /><br><br>Change to Line 5  :   Komsomolskaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.65697,55.774545,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Krasnye vorota</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.648902,55.768921,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chistye prudy</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/ry5aLK_ZCBjTFsscz4h-bcgPHhTFDXdGF10LQ3jtDtEDeG3LYR3g1aiLJpuIsHnntO4gKttP9Pv6WrdD" height="200" width="auto" /><br><br>Change to Line 6 :  Turgenevskaya, <br>Change to Line 10 :  Sretensky Bulvar<br><br><img src="https://lh5.googleusercontent.com/proxy/oIVQZrbZ4h3aiDS7lReM0HrQB0h0d09dvjQcOAgwctNW0CAnxs6cvBB8vrZKTcy12G6TJyzckQ" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/ry5aLK_ZCBjTFsscz4h-bcgPHhTFDXdGF10LQ3jtDtEDeG3LYR3g1aiLJpuIsHnntO4gKttP9Pv6WrdD https://lh5.googleusercontent.com/proxy/oIVQZrbZ4h3aiDS7lReM0HrQB0h0d09dvjQcOAgwctNW0CAnxs6cvBB8vrZKTcy12G6TJyzckQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.638216,55.765034,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lubyanka</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/2AH0XKuJTiTkWuwasSnmkbzHpAQ7UT6g1XV9jouFEv4F6XuENTdod93oUX2OBxBWCg-t_zB7HQAEkbMD" height="200" width="auto" /><br><br>Change to Line 7 :  Kuznetsky Most]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/2AH0XKuJTiTkWuwasSnmkbzHpAQ7UT6g1XV9jouFEv4F6XuENTdod93oUX2OBxBWCg-t_zB7HQAEkbMD</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.626371,55.759843,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Okhotnyj Rjad</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/B7ufD40IKJki2DGZez5XY8N8sRdO_loSmxxnaUnDYPT7-23p-68QZ5STOGlLdOf4Q75k99IsZ66s414" height="200" width="auto" /><br><br>Change to Line 2 :  Teatral'naya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/B7ufD40IKJki2DGZez5XY8N8sRdO_loSmxxnaUnDYPT7-23p-68QZ5STOGlLdOf4Q75k99IsZ66s414</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.615814,55.756788,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Biblioteka im Lenina</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/p2-R6tBeiM55dFKAdnH8GV3MqCluGpVqq1sNA3jPnSmDvLMxFW4dG1UHKAUEKAUg2RCvi2NpJ0GGwA" height="200" width="auto" /><br><br>Change to Line 3 :    Arbatskaya,<br>Change to Line 4 :    Alexandrovsky Sad,<br>Change to Line 9 :    Borovitskaya<br><br><img src="https://lh3.googleusercontent.com/proxy/3QmodMylRyqqe9_VyQ-x3MBcqEybjgNVRK94rIkkNF_JUfIrmrGEsAJiwvLBUbfX7Dk-DI-1myW5iA" height="200" width="auto" /><br><br><img src="https://lh6.googleusercontent.com/proxy/sJCSmjsw-Ta6mNzA6m-eNdM79Fr9ZpdghSM7lfJmkGD_bgzBLkRXXUoDvvIxciVFmfAFFLTMydaIWA" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/p2-R6tBeiM55dFKAdnH8GV3MqCluGpVqq1sNA3jPnSmDvLMxFW4dG1UHKAUEKAUg2RCvi2NpJ0GGwA https://lh3.googleusercontent.com/proxy/3QmodMylRyqqe9_VyQ-x3MBcqEybjgNVRK94rIkkNF_JUfIrmrGEsAJiwvLBUbfX7Dk-DI-1myW5iA https://lh6.googleusercontent.com/proxy/sJCSmjsw-Ta6mNzA6m-eNdM79Fr9ZpdghSM7lfJmkGD_bgzBLkRXXUoDvvIxciVFmfAFFLTMydaIWA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.609226,55.750973,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kropotkinskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.603584,55.744663,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Park Kultury</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh" height="200" width="auto" /><br><br>Change to Line 5 :    Park Kultury]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.594829,55.735978,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Frunzenskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.580322,55.727207,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sportivnaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.562985,55.723122,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vorobyevy gory</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.560711,55.711833,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Universitet</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.534748,55.692848,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prospekt Vernadskogo</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.504662,55.676762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yugo Zapadnaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.482862,55.664007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Line 2</name>
+        <description><![CDATA[Zamoskvoretskaya Line<br>Number of stations - 20<br>Route - 36,9 km]]></description>
+        <styleUrl>#line-33CC00-4000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            37.47586,55.85448,0
+            37.48714,55.83919,0
+            37.49834,55.81876,0
+            37.5148,55.80529,0
+            37.5326,55.8004,0
+            37.55736,55.78984,0
+            37.58208,55.77673,0
+            37.59435,55.77164,0
+            37.60541,55.76509,0
+            37.617595,55.758732,0
+            37.62897,55.7421,0
+            37.63853,55.73008,0
+            37.65761,55.70651,0
+            37.66508,55.67956,0
+            37.6488,55.65485,0
+            37.65512,55.63761,0
+            37.66975,55.62035,0
+            37.69548,55.6122,0
+            37.71632,55.61051,0
+            37.74704,55.61379,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Rechnoi vokzal</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.475822,55.854588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vodny stadion</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.48698,55.839275,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Voikovskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.498161,55.818764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sokol</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.514729,55.805298,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aeroport</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.532536,55.800461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dinamo</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.56011,55.789605,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Belorusskaya</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh" height="200" width="auto" /><br><br>Change to Line 5 :    Belorusskaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.581974,55.776752,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mayakovskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.595558,55.771649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tverskaya</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/2AH0XKuJTiTkWuwasSnmkbzHpAQ7UT6g1XV9jouFEv4F6XuENTdod93oUX2OBxBWCg-t_zB7HQAEkbMD" height="200" width="auto" /><br><br>Change to Line 7 :    Pushkinskaya<br><br>Change to Line 9 :    Chekhovskaya<br><br><img src="https://lh6.googleusercontent.com/proxy/sJCSmjsw-Ta6mNzA6m-eNdM79Fr9ZpdghSM7lfJmkGD_bgzBLkRXXUoDvvIxciVFmfAFFLTMydaIWA" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/2AH0XKuJTiTkWuwasSnmkbzHpAQ7UT6g1XV9jouFEv4F6XuENTdod93oUX2OBxBWCg-t_zB7HQAEkbMD https://lh6.googleusercontent.com/proxy/sJCSmjsw-Ta6mNzA6m-eNdM79Fr9ZpdghSM7lfJmkGD_bgzBLkRXXUoDvvIxciVFmfAFFLTMydaIWA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.604485,55.765362,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Teatral'naya]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Oz4-gwOMQV_lspCKr0uidPpw-tIqGdrJNw3EWrfp8-9vLHuxkhVOccOSKg37y830mjlc5GyarBoB" height="200" width="auto" /><br><br>Change to Line 1 :    Okhotnyj Rjad<br><br>Change to Line 5 :    Ploshchad revolyutsii<br><br><img src="https://lh5.googleusercontent.com/proxy/p2-R6tBeiM55dFKAdnH8GV3MqCluGpVqq1sNA3jPnSmDvLMxFW4dG1UHKAUEKAUg2RCvi2NpJ0GGwA" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/Oz4-gwOMQV_lspCKr0uidPpw-tIqGdrJNw3EWrfp8-9vLHuxkhVOccOSKg37y830mjlc5GyarBoB https://lh5.googleusercontent.com/proxy/p2-R6tBeiM55dFKAdnH8GV3MqCluGpVqq1sNA3jPnSmDvLMxFW4dG1UHKAUEKAUg2RCvi2NpJ0GGwA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.61766,55.758768,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Novokuznetskaya</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/ry5aLK_ZCBjTFsscz4h-bcgPHhTFDXdGF10LQ3jtDtEDeG3LYR3g1aiLJpuIsHnntO4gKttP9Pv6WrdD" height="200" width="auto" /><br><br>Change to Line 6 :  Tretyakovskaya<br><br>Change to Line 8 :    Tretyakovskaya<br><br><img src="https://lh5.googleusercontent.com/proxy/WA0h2hijXROXCgv75L7SGxvMM5CigRZ3fcfsKmj-lxiho1RPqT8m7Y68wcaxGtw6HKaFoIo_ksY079g1" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/ry5aLK_ZCBjTFsscz4h-bcgPHhTFDXdGF10LQ3jtDtEDeG3LYR3g1aiLJpuIsHnntO4gKttP9Pv6WrdD https://lh5.googleusercontent.com/proxy/WA0h2hijXROXCgv75L7SGxvMM5CigRZ3fcfsKmj-lxiho1RPqT8m7Y68wcaxGtw6HKaFoIo_ksY079g1</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.628986,55.742119,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paveletskaya</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh" height="200" width="auto" /><br><br>Change to Line 5 :    Paveletskaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.638645,55.730057,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Avtozavodskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.6577,55.706514,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kolomenskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.665339,55.67952,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kashirskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.648815,55.654858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kantemirovskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.655823,55.637177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tsaritsino</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.669628,55.620422,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Orekhovo</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.695465,55.612209,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Domodedovskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.716656,55.610596,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Krasnogvardeiskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.746534,55.614086,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Line 3</name>
+        <description><![CDATA[Arbatsko Pokrovskaya<br>Number of stations - 18<br>Route - 37,7 km]]></description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            37.401237,55.804561,0
+            37.409906,55.755916,0
+            37.416902,55.740694,0
+            37.44578,55.73088,0
+            37.47715,55.72986,0
+            37.51672,55.73638,0
+            37.56415,55.74272,0
+            37.58472,55.74782,0
+            37.60284,55.75251,0
+            37.62212,55.75634,0
+            37.63143,55.7559,0
+            37.6407,55.75692,0
+            37.65951,55.75788,0
+            37.68018,55.77367,0
+            37.70705,55.78197,0
+            37.72222,55.7834,0
+            37.74908,55.78878,0
+            37.77985,55.78784,0
+            37.79922,55.79439,0
+            37.79863,55.80933,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Shchelkovskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.798462,55.809192,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pervomaiskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.799362,55.794006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Izmailovskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.779881,55.787624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Partizanskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.74926,55.788216,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Semenovskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.720699,55.782486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elektrozavodskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.705463,55.780991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baumanskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.678631,55.772621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kurskaya</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh" height="200" width="auto" /><br><br>Change to Line 5 :    Kurskaya<br><br>Change to Line 10 :   Chkalovskya<br><br><img src="https://lh5.googleusercontent.com/proxy/oIVQZrbZ4h3aiDS7lReM0HrQB0h0d09dvjQcOAgwctNW0CAnxs6cvBB8vrZKTcy12G6TJyzckQ" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh https://lh5.googleusercontent.com/proxy/oIVQZrbZ4h3aiDS7lReM0HrQB0h0d09dvjQcOAgwctNW0CAnxs6cvBB8vrZKTcy12G6TJyzckQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.659416,55.757887,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ploshchad revolyutsii</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/B7ufD40IKJki2DGZez5XY8N8sRdO_loSmxxnaUnDYPT7-23p-68QZ5STOGlLdOf4Q75k99IsZ66s414" height="200" width="auto" /><br><br>Change to Line 2 :    Teatral'naya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/B7ufD40IKJki2DGZez5XY8N8sRdO_loSmxxnaUnDYPT7-23p-68QZ5STOGlLdOf4Q75k99IsZ66s414</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.62208,55.756378,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arbatskaya</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Oz4-gwOMQV_lspCKr0uidPpw-tIqGdrJNw3EWrfp8-9vLHuxkhVOccOSKg37y830mjlc5GyarBoB" height="200" width="auto" /><br><br>Change to Line 1 :    Biblioteka im Lenina<br><br>Change to Line 4 :    Alexandrovsky Sad<br><br>Change to Line 9 :     Borovitskaya<br><br><img src="https://lh3.googleusercontent.com/proxy/3QmodMylRyqqe9_VyQ-x3MBcqEybjgNVRK94rIkkNF_JUfIrmrGEsAJiwvLBUbfX7Dk-DI-1myW5iA" height="200" width="auto" /><br><br><img src="https://lh6.googleusercontent.com/proxy/sJCSmjsw-Ta6mNzA6m-eNdM79Fr9ZpdghSM7lfJmkGD_bgzBLkRXXUoDvvIxciVFmfAFFLTMydaIWA" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/Oz4-gwOMQV_lspCKr0uidPpw-tIqGdrJNw3EWrfp8-9vLHuxkhVOccOSKg37y830mjlc5GyarBoB https://lh3.googleusercontent.com/proxy/3QmodMylRyqqe9_VyQ-x3MBcqEybjgNVRK94rIkkNF_JUfIrmrGEsAJiwvLBUbfX7Dk-DI-1myW5iA https://lh6.googleusercontent.com/proxy/sJCSmjsw-Ta6mNzA6m-eNdM79Fr9ZpdghSM7lfJmkGD_bgzBLkRXXUoDvvIxciVFmfAFFLTMydaIWA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.603603,55.752453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Smolenskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.583157,55.747105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kievskaya</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/3QmodMylRyqqe9_VyQ-x3MBcqEybjgNVRK94rIkkNF_JUfIrmrGEsAJiwvLBUbfX7Dk-DI-1myW5iA" height="200" width="auto" /><br><br>Change to Line 4 :   Kievskaya<br><br>Change to Line 5 :   Kievskaya<br><br><img src="https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/3QmodMylRyqqe9_VyQ-x3MBcqEybjgNVRK94rIkkNF_JUfIrmrGEsAJiwvLBUbfX7Dk-DI-1myW5iA https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.565292,55.742188,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Park Pobedi</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.516594,55.736122,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Slavyanskiy Bulvar</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.477112,55.730203,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kuntsevskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.448273,55.731267,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Molodyoznhaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.416042,55.740421,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Krylatskoye</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.408447,55.755134,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Strogino</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.401581,55.805333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Line 4</name>
+        <description>Filyovskaya</description>
+        <styleUrl>#line-33CCFF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            37.60855,55.75221,0
+            37.60139,55.75224,0
+            37.58211,55.74824,0
+            37.56504,55.74313,0
+            37.54755,55.73839,0
+            37.53858,55.73698,0
+            37.53366,55.73976,0
+            37.51507,55.74581,0
+            37.50891,55.74839,0
+            37.49826,55.74377,0
+            37.48334,55.73955,0
+            37.46711,55.7359,0
+            37.44628,55.73086,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Alexandrovsky Sad</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Oz4-gwOMQV_lspCKr0uidPpw-tIqGdrJNw3EWrfp8-9vLHuxkhVOccOSKg37y830mjlc5GyarBoB" height="200" width="auto" /><br><br>Change to Line 1 :    Biblioteka im Lenina<br>Change to Line 3 :    Arbatskaya<br><br><img src="https://lh5.googleusercontent.com/proxy/p2-R6tBeiM55dFKAdnH8GV3MqCluGpVqq1sNA3jPnSmDvLMxFW4dG1UHKAUEKAUg2RCvi2NpJ0GGwA" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/Oz4-gwOMQV_lspCKr0uidPpw-tIqGdrJNw3EWrfp8-9vLHuxkhVOccOSKg37y830mjlc5GyarBoB https://lh5.googleusercontent.com/proxy/p2-R6tBeiM55dFKAdnH8GV3MqCluGpVqq1sNA3jPnSmDvLMxFW4dG1UHKAUEKAUg2RCvi2NpJ0GGwA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.608582,55.752052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arbatskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.601246,55.751968,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Smolenskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.582039,55.748154,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kievskaya</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/p2-R6tBeiM55dFKAdnH8GV3MqCluGpVqq1sNA3jPnSmDvLMxFW4dG1UHKAUEKAUg2RCvi2NpJ0GGwA" height="200" width="auto" /><br><br>Change to Line 3 :    Kievskaya<br><br><br>Change to Line 5 :    Kievskaya<br><br><img src="https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/p2-R6tBeiM55dFKAdnH8GV3MqCluGpVqq1sNA3jPnSmDvLMxFW4dG1UHKAUEKAUg2RCvi2NpJ0GGwA https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.565144,55.743168,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Delovoi Tsentr</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.543461,55.749363,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mezhdunarodnaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.533031,55.748322,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Studencheskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.547749,55.738297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kutuzovskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.533504,55.739746,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fili</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.514812,55.745724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagrationovskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.497688,55.74342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Filyovsky Park</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.483078,55.739395,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pionierskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.466812,55.735737,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kuntsevskaya</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/p2-R6tBeiM55dFKAdnH8GV3MqCluGpVqq1sNA3jPnSmDvLMxFW4dG1UHKAUEKAUg2RCvi2NpJ0GGwA" height="200" width="auto" /><br><br>Change to Line 3 :    Kuntsevskaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/p2-R6tBeiM55dFKAdnH8GV3MqCluGpVqq1sNA3jPnSmDvLMxFW4dG1UHKAUEKAUg2RCvi2NpJ0GGwA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.44574,55.730469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Line 5</name>
+        <description><![CDATA[Koltsevaya Line<br>Number of stations - 12<br>Route - 19,3 km]]></description>
+        <styleUrl>#line-990000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            37.56729,55.7434,0
+            37.57667,55.75989,0
+            37.58253,55.77616,0
+            37.60065,55.7794,0
+            37.63336,55.7797,0
+            37.65606,55.77519,0
+            37.6594,55.75767,0
+            37.658694,55.755885,0
+            37.65333,55.74242,0
+            37.63621,55.73127,0
+            37.62276,55.72916,0
+            37.61138,55.72917,0
+            37.59309,55.73521,0
+            37.56732,55.74338,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Kievskaya</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/p2-R6tBeiM55dFKAdnH8GV3MqCluGpVqq1sNA3jPnSmDvLMxFW4dG1UHKAUEKAUg2RCvi2NpJ0GGwA" height="200" width="auto" /><br><br>Change to Line 3 :    Kievskaya<br><br>Change to Line 4 :     Kievskaya<br><br><img src="https://lh3.googleusercontent.com/proxy/3QmodMylRyqqe9_VyQ-x3MBcqEybjgNVRK94rIkkNF_JUfIrmrGEsAJiwvLBUbfX7Dk-DI-1myW5iA" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/p2-R6tBeiM55dFKAdnH8GV3MqCluGpVqq1sNA3jPnSmDvLMxFW4dG1UHKAUEKAUg2RCvi2NpJ0GGwA https://lh3.googleusercontent.com/proxy/3QmodMylRyqqe9_VyQ-x3MBcqEybjgNVRK94rIkkNF_JUfIrmrGEsAJiwvLBUbfX7Dk-DI-1myW5iA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.567329,55.743351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Krasnopresnenskaya</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/2AH0XKuJTiTkWuwasSnmkbzHpAQ7UT6g1XV9jouFEv4F6XuENTdod93oUX2OBxBWCg-t_zB7HQAEkbMD" height="200" width="auto" /><br><br>Change to Line 5 :     Barrikadnaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/2AH0XKuJTiTkWuwasSnmkbzHpAQ7UT6g1XV9jouFEv4F6XuENTdod93oUX2OBxBWCg-t_zB7HQAEkbMD</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.577276,55.760374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Belorusskaya</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/B7ufD40IKJki2DGZez5XY8N8sRdO_loSmxxnaUnDYPT7-23p-68QZ5STOGlLdOf4Q75k99IsZ66s414" height="200" width="auto" /><br><br>Change to Line 5 :    Belorusskaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/B7ufD40IKJki2DGZez5XY8N8sRdO_loSmxxnaUnDYPT7-23p-68QZ5STOGlLdOf4Q75k99IsZ66s414</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.582253,55.775803,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Novoslobodskaya</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/sJCSmjsw-Ta6mNzA6m-eNdM79Fr9ZpdghSM7lfJmkGD_bgzBLkRXXUoDvvIxciVFmfAFFLTMydaIWA" height="200" width="auto" /><br><br>Change to Line 9 :    Mendeleevskaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/sJCSmjsw-Ta6mNzA6m-eNdM79Fr9ZpdghSM7lfJmkGD_bgzBLkRXXUoDvvIxciVFmfAFFLTMydaIWA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.600407,55.779228,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prospekt Mira</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/ry5aLK_ZCBjTFsscz4h-bcgPHhTFDXdGF10LQ3jtDtEDeG3LYR3g1aiLJpuIsHnntO4gKttP9Pv6WrdD" height="200" width="auto" /><br><br>Change to Line 6 :     Prospekt Mira]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/ry5aLK_ZCBjTFsscz4h-bcgPHhTFDXdGF10LQ3jtDtEDeG3LYR3g1aiLJpuIsHnntO4gKttP9Pv6WrdD</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.633064,55.779541,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Komsomolskaya</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Oz4-gwOMQV_lspCKr0uidPpw-tIqGdrJNw3EWrfp8-9vLHuxkhVOccOSKg37y830mjlc5GyarBoB" height="200" width="auto" /><br><br>Change to Line 1 :     Komsomolskaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/Oz4-gwOMQV_lspCKr0uidPpw-tIqGdrJNw3EWrfp8-9vLHuxkhVOccOSKg37y830mjlc5GyarBoB</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.655125,55.775632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kurskaya</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/p2-R6tBeiM55dFKAdnH8GV3MqCluGpVqq1sNA3jPnSmDvLMxFW4dG1UHKAUEKAUg2RCvi2NpJ0GGwA" height="200" width="auto" /><br><br>Change to Line 3 :    Kurskaya<br><br>Change to Line 10 :    Chkalovskya<br><br><img src="https://lh5.googleusercontent.com/proxy/oIVQZrbZ4h3aiDS7lReM0HrQB0h0d09dvjQcOAgwctNW0CAnxs6cvBB8vrZKTcy12G6TJyzckQ" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/p2-R6tBeiM55dFKAdnH8GV3MqCluGpVqq1sNA3jPnSmDvLMxFW4dG1UHKAUEKAUg2RCvi2NpJ0GGwA https://lh5.googleusercontent.com/proxy/oIVQZrbZ4h3aiDS7lReM0HrQB0h0d09dvjQcOAgwctNW0CAnxs6cvBB8vrZKTcy12G6TJyzckQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.659073,55.757427,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taganskaya</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/2AH0XKuJTiTkWuwasSnmkbzHpAQ7UT6g1XV9jouFEv4F6XuENTdod93oUX2OBxBWCg-t_zB7HQAEkbMD" height="200" width="auto" /><br><br>Change to Line 7 :    Taganskaya<br><br>Change to Line 8 :     Marksistkaya<br><br><img src="https://lh5.googleusercontent.com/proxy/WA0h2hijXROXCgv75L7SGxvMM5CigRZ3fcfsKmj-lxiho1RPqT8m7Y68wcaxGtw6HKaFoIo_ksY079g1" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/2AH0XKuJTiTkWuwasSnmkbzHpAQ7UT6g1XV9jouFEv4F6XuENTdod93oUX2OBxBWCg-t_zB7HQAEkbMD https://lh5.googleusercontent.com/proxy/WA0h2hijXROXCgv75L7SGxvMM5CigRZ3fcfsKmj-lxiho1RPqT8m7Y68wcaxGtw6HKaFoIo_ksY079g1</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.653622,55.742207,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paveletskaya</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/B7ufD40IKJki2DGZez5XY8N8sRdO_loSmxxnaUnDYPT7-23p-68QZ5STOGlLdOf4Q75k99IsZ66s414" height="200" width="auto" /><br><br>Change to Line 5 :    Paveletskaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/B7ufD40IKJki2DGZez5XY8N8sRdO_loSmxxnaUnDYPT7-23p-68QZ5STOGlLdOf4Q75k99IsZ66s414</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.636242,55.731205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dobrininskaya</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/sJCSmjsw-Ta6mNzA6m-eNdM79Fr9ZpdghSM7lfJmkGD_bgzBLkRXXUoDvvIxciVFmfAFFLTMydaIWA" height="200" width="auto" /><br><br>Change to Line 9 :    Serpukhovskaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/sJCSmjsw-Ta6mNzA6m-eNdM79Fr9ZpdghSM7lfJmkGD_bgzBLkRXXUoDvvIxciVFmfAFFLTMydaIWA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.62238,55.728874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oktyabrskaya</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/ry5aLK_ZCBjTFsscz4h-bcgPHhTFDXdGF10LQ3jtDtEDeG3LYR3g1aiLJpuIsHnntO4gKttP9Pv6WrdD" height="200" width="auto" /><br><br>Change to Line 5 :    Oktyabrskaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/ry5aLK_ZCBjTFsscz4h-bcgPHhTFDXdGF10LQ3jtDtEDeG3LYR3g1aiLJpuIsHnntO4gKttP9Pv6WrdD</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.611427,55.729053,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Park Kultury</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Oz4-gwOMQV_lspCKr0uidPpw-tIqGdrJNw3EWrfp8-9vLHuxkhVOccOSKg37y830mjlc5GyarBoB" height="200" width="auto" /><br><br>Change to Line 1 :    Park Kultury]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/Oz4-gwOMQV_lspCKr0uidPpw-tIqGdrJNw3EWrfp8-9vLHuxkhVOccOSKg37y830mjlc5GyarBoB</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.592949,55.735065,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Line 6</name>
+        <description><![CDATA[Kaluzhsko-Rizhskaya<br>Number of stations - 24<br>Route - 37,6 km]]></description>
+        <styleUrl>#line-FF9900-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            37.55255,55.60137,0
+            37.53281,55.60598,0
+            37.50577,55.61883,0
+            37.51847,55.63394,0
+            37.52483,55.64173,0
+            37.55345,55.67026,0
+            37.56229,55.6777,0
+            37.57276,55.68755,0
+            37.58594,55.70743,0
+            37.60804,55.71838,0
+            37.61251,55.73075,0
+            37.62606,55.74081,0
+            37.63113,55.75658,0
+            37.63744,55.76556,0
+            37.63203,55.77254,0
+            37.63285,55.77949,0
+            37.63302,55.78135,0
+            37.63579,55.7924,0
+            37.63785,55.80764,0
+            37.64164,55.82233,0
+            37.63645,55.84421,0
+            37.6543,55.85573,0
+            37.66323,55.86869,0
+            37.661476,55.888021,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Medvedkovo</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.661819,55.887972,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Babushkinskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.66362,55.868423,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sviblovo</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.654953,55.85566,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Botanichesky Sad</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.636799,55.844021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VDNKh</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.641949,55.82209,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alexeevskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.638084,55.80748,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rizhskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.636066,55.792309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prospekt Mira</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh" height="200" width="auto" /><br><br>Change to Line 5 :     Prospekt Mira]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.632935,55.781376,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sukharevskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.632465,55.772251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Turgenevskaya</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Oz4-gwOMQV_lspCKr0uidPpw-tIqGdrJNw3EWrfp8-9vLHuxkhVOccOSKg37y830mjlc5GyarBoB" height="200" width="auto" /><br><br>Change to Line 1 :  Chistye Prudy<br>Change to Line 10 :  Sretensky Bulvar<br><br><img src="https://lh5.googleusercontent.com/proxy/oIVQZrbZ4h3aiDS7lReM0HrQB0h0d09dvjQcOAgwctNW0CAnxs6cvBB8vrZKTcy12G6TJyzckQ" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/Oz4-gwOMQV_lspCKr0uidPpw-tIqGdrJNw3EWrfp8-9vLHuxkhVOccOSKg37y830mjlc5GyarBoB https://lh5.googleusercontent.com/proxy/oIVQZrbZ4h3aiDS7lReM0HrQB0h0d09dvjQcOAgwctNW0CAnxs6cvBB8vrZKTcy12G6TJyzckQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.636929,55.765927,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kital Gorod</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/2AH0XKuJTiTkWuwasSnmkbzHpAQ7UT6g1XV9jouFEv4F6XuENTdod93oUX2OBxBWCg-t_zB7HQAEkbMD" height="200" width="auto" /><br><br>Change to Line 7 :     Kital Gorod]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/2AH0XKuJTiTkWuwasSnmkbzHpAQ7UT6g1XV9jouFEv4F6XuENTdod93oUX2OBxBWCg-t_zB7HQAEkbMD</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.631016,55.756493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tretyakovskaya</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/B7ufD40IKJki2DGZez5XY8N8sRdO_loSmxxnaUnDYPT7-23p-68QZ5STOGlLdOf4Q75k99IsZ66s414" height="200" width="auto" /><br><br>Change to Line 2 :     Novokuznetskaya<br><br>Change to Line 8 :    Tretyakovskaya<br><br><img src="https://lh5.googleusercontent.com/proxy/WA0h2hijXROXCgv75L7SGxvMM5CigRZ3fcfsKmj-lxiho1RPqT8m7Y68wcaxGtw6HKaFoIo_ksY079g1" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/B7ufD40IKJki2DGZez5XY8N8sRdO_loSmxxnaUnDYPT7-23p-68QZ5STOGlLdOf4Q75k99IsZ66s414 https://lh5.googleusercontent.com/proxy/WA0h2hijXROXCgv75L7SGxvMM5CigRZ3fcfsKmj-lxiho1RPqT8m7Y68wcaxGtw6HKaFoIo_ksY079g1</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.626672,55.740521,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oktyabrskaya</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh" height="200" width="auto" /><br><br>Change to Line 5 :     Oktyabrskaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.612991,55.731068,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shabolovskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.608349,55.718071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leninsky Prospect</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.586246,55.707214,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Akademichevskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.573071,55.68726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Profsouznaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.562557,55.677414,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Novye Cheremushki</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.553757,55.669987,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaluzhskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.539295,55.655628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Belyaevo</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.525047,55.641514,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Kon'kovo]]></name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.518742,55.633713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tyoplyi Stan</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.50629,55.618256,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yasenevo</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.533245,55.605507,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bitsevskiy Park</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.552212,55.600948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Line 7</name>
+        <description><![CDATA[Tagansko-Krasnopresnenskaya<br>Number of stations - 19<br>Route - 35,9 km]]></description>
+        <styleUrl>#line-CC66CC-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            37.43584,55.86175,0
+            37.44029,55.851373,0
+            37.43697,55.8264,0
+            37.46242,55.80904,0
+            37.49342,55.79312,0
+            37.51668,55.77743,0
+            37.54921,55.77373,0
+            37.56224,55.76364,0
+            37.58255,55.76108,0
+            37.60379,55.7662,0
+            37.62451,55.76149,0
+            37.63079,55.75692,0
+            37.65289,55.73975,0
+            37.66881,55.73183,0
+            37.68851,55.72436,0
+            37.733059,55.709609,0
+            37.767134,55.705789,0
+            37.792883,55.716717,0
+            37.81743,55.716765,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Planernaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.435978,55.861645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Skhodnenskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.440376,55.851373,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tushinskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.437115,55.826336,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shchukinskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.462627,55.808842,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oktyabrskoe Pole</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.493721,55.792767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Polezhaevskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.516872,55.777321,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Begovaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.549038,55.773556,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ulitsa 1905 Goda</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.562084,55.763466,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barrikadnaya</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh" height="200" width="auto" /><br><br>Change to Line 5 :     Krasnopresnenskaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.582382,55.760834,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pushkinskaya</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/B7ufD40IKJki2DGZez5XY8N8sRdO_loSmxxnaUnDYPT7-23p-68QZ5STOGlLdOf4Q75k99IsZ66s414" height="200" width="auto" /><br><br>Change to Line 2 :    Tverskaya<br><br>Change to Line 9 :    Chekhovskaya<br><br><img src="https://lh6.googleusercontent.com/proxy/sJCSmjsw-Ta6mNzA6m-eNdM79Fr9ZpdghSM7lfJmkGD_bgzBLkRXXUoDvvIxciVFmfAFFLTMydaIWA" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/B7ufD40IKJki2DGZez5XY8N8sRdO_loSmxxnaUnDYPT7-23p-68QZ5STOGlLdOf4Q75k99IsZ66s414 https://lh6.googleusercontent.com/proxy/sJCSmjsw-Ta6mNzA6m-eNdM79Fr9ZpdghSM7lfJmkGD_bgzBLkRXXUoDvvIxciVFmfAFFLTMydaIWA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.603603,55.766048,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kuznetsky Most</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Oz4-gwOMQV_lspCKr0uidPpw-tIqGdrJNw3EWrfp8-9vLHuxkhVOccOSKg37y830mjlc5GyarBoB" height="200" width="auto" /><br><br>Change to Line 1 :    Lubyanka]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/Oz4-gwOMQV_lspCKr0uidPpw-tIqGdrJNw3EWrfp8-9vLHuxkhVOccOSKg37y830mjlc5GyarBoB</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.624352,55.761219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kitay Gorod</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/ry5aLK_ZCBjTFsscz4h-bcgPHhTFDXdGF10LQ3jtDtEDeG3LYR3g1aiLJpuIsHnntO4gKttP9Pv6WrdD" height="200" width="auto" /><br><br>Change to Line 6 :    Kitay Gorod]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/ry5aLK_ZCBjTFsscz4h-bcgPHhTFDXdGF10LQ3jtDtEDeG3LYR3g1aiLJpuIsHnntO4gKttP9Pv6WrdD</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.63092,55.756783,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taganskaya</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh" height="200" width="auto" /><br><br>Change to Line 5 :    Taganskaya<br><br>Change to Line 8 :    Marksistkaya<br><br><img src="https://lh5.googleusercontent.com/proxy/WA0h2hijXROXCgv75L7SGxvMM5CigRZ3fcfsKmj-lxiho1RPqT8m7Y68wcaxGtw6HKaFoIo_ksY079g1" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh https://lh5.googleusercontent.com/proxy/WA0h2hijXROXCgv75L7SGxvMM5CigRZ3fcfsKmj-lxiho1RPqT8m7Y68wcaxGtw6HKaFoIo_ksY079g1</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.652615,55.739483,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Proletarskaya</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/oIVQZrbZ4h3aiDS7lReM0HrQB0h0d09dvjQcOAgwctNW0CAnxs6cvBB8vrZKTcy12G6TJyzckQ" height="200" width="auto" /><br><br>Change to Line 5 :    Krestyanskaya Zastava]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/oIVQZrbZ4h3aiDS7lReM0HrQB0h0d09dvjQcOAgwctNW0CAnxs6cvBB8vrZKTcy12G6TJyzckQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.668644,55.73175,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Volgogradskiy Prospekt</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.688297,55.724258,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tekstilshchiki</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.733746,55.709658,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kuzminki</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.767477,55.705837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ryazanskiy Prospekt</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.792711,55.716475,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vykhino</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.817087,55.716862,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Line 8</name>
+        <description><![CDATA[Kalininskaya<br>Number of stations - 7<br>Route - 13,1 km]]></description>
+        <styleUrl>#line-FFFF33-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            37.625042,55.740738,0
+            37.655811,55.74139,0
+            37.680313,55.747089,0
+            37.717396,55.752258,0
+            37.751556,55.757622,0
+            37.787647,55.751366,0
+            37.81876,55.751728,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Novogireevo</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.81863,55.751572,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Perovo</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.787476,55.751125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shosse Entuziastov</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.751682,55.757427,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aviamotornaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.717266,55.752102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ploshchad Ilicha</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/oIVQZrbZ4h3aiDS7lReM0HrQB0h0d09dvjQcOAgwctNW0CAnxs6cvBB8vrZKTcy12G6TJyzckQ" height="200" width="auto" /><br><br>Change to Line 10 :    Rimskaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/oIVQZrbZ4h3aiDS7lReM0HrQB0h0d09dvjQcOAgwctNW0CAnxs6cvBB8vrZKTcy12G6TJyzckQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.680122,55.74691,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marksistkaya</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh" height="200" width="auto" /><br><br>Change to Line 5 :    Taganskaya<br><br>Change to Line 7 :    Taganskaya<br><br><img src="https://lh5.googleusercontent.com/proxy/2AH0XKuJTiTkWuwasSnmkbzHpAQ7UT6g1XV9jouFEv4F6XuENTdod93oUX2OBxBWCg-t_zB7HQAEkbMD" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh https://lh5.googleusercontent.com/proxy/2AH0XKuJTiTkWuwasSnmkbzHpAQ7UT6g1XV9jouFEv4F6XuENTdod93oUX2OBxBWCg-t_zB7HQAEkbMD</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.656197,55.741039,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tretyakovskaya</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/B7ufD40IKJki2DGZez5XY8N8sRdO_loSmxxnaUnDYPT7-23p-68QZ5STOGlLdOf4Q75k99IsZ66s414" height="200" width="auto" /><br><br>Change to Line 2 :    Novokuznetskaya<br><br>Change to Line 6 :    Tretyakovskaya<br><br><img src="https://lh3.googleusercontent.com/proxy/ry5aLK_ZCBjTFsscz4h-bcgPHhTFDXdGF10LQ3jtDtEDeG3LYR3g1aiLJpuIsHnntO4gKttP9Pv6WrdD" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/B7ufD40IKJki2DGZez5XY8N8sRdO_loSmxxnaUnDYPT7-23p-68QZ5STOGlLdOf4Q75k99IsZ66s414 https://lh3.googleusercontent.com/proxy/ry5aLK_ZCBjTFsscz4h-bcgPHhTFDXdGF10LQ3jtDtEDeG3LYR3g1aiLJpuIsHnntO4gKttP9Pv6WrdD</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.624889,55.740627,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Line 9 Gray</name>
+        <description><![CDATA[Serpukhovsko-Timiryazevskaya<br>Number of stations - 25<br>Route - 41,2 km]]></description>
+        <styleUrl>#line-666666-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            37.58774,55.89881,0
+            37.60129,55.88431,0
+            37.604828,55.864427,0
+            37.58937,55.84592,0
+            37.57503,55.83591,0
+            37.57616,55.81852,0
+            37.581053,55.808372,0
+            37.58736,55.7937,0
+            37.59886,55.78159,0
+            37.62065,55.77122,0
+            37.608,55.76575,0
+            37.6085,55.75101,0
+            37.61898,55.73682,0
+            37.62474,55.72676,0
+            37.622509,55.709803,0
+            37.62276,55.68343,0
+            37.61048,55.67293,0
+            37.60644,55.66349,0
+            37.59769,55.65115,0
+            37.608004,55.640011,0
+            37.609205,55.623586,0
+            37.60276,55.61053,0
+            37.60044,55.59526,0
+            37.59676,55.584263,0
+            37.5777,55.56909,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Altufyevo</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.587769,55.898571,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bibirevo</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.601311,55.884315,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Otradnoye</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.605171,55.86462,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vladykino</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.58942,55.845928,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Petrovsko Razumovskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.57513,55.835953,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Timiryazevskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.574959,55.819995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dmitrovskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.582169,55.808613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Savyolovskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.58736,55.793728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mendeleevskaya</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh" height="200" width="auto" /><br><br>Change to Line 5 :    Novoslobodskaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.598778,55.781628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tsvetnoi Bulvar</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/oIVQZrbZ4h3aiDS7lReM0HrQB0h0d09dvjQcOAgwctNW0CAnxs6cvBB8vrZKTcy12G6TJyzckQ" height="200" width="auto" /><br><br>Change to Line 10 :    Trubnaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/oIVQZrbZ4h3aiDS7lReM0HrQB0h0d09dvjQcOAgwctNW0CAnxs6cvBB8vrZKTcy12G6TJyzckQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.620707,55.77107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chekhovskaya</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/B7ufD40IKJki2DGZez5XY8N8sRdO_loSmxxnaUnDYPT7-23p-68QZ5STOGlLdOf4Q75k99IsZ66s414" height="200" width="auto" /><br><br>Change to Line 2 :    Tverskaya<br><br>Change to Line 7 :    Pushkinskaya<br><br><img src="https://lh5.googleusercontent.com/proxy/2AH0XKuJTiTkWuwasSnmkbzHpAQ7UT6g1XV9jouFEv4F6XuENTdod93oUX2OBxBWCg-t_zB7HQAEkbMD" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/B7ufD40IKJki2DGZez5XY8N8sRdO_loSmxxnaUnDYPT7-23p-68QZ5STOGlLdOf4Q75k99IsZ66s414 https://lh5.googleusercontent.com/proxy/2AH0XKuJTiTkWuwasSnmkbzHpAQ7UT6g1XV9jouFEv4F6XuENTdod93oUX2OBxBWCg-t_zB7HQAEkbMD</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.608154,55.76577,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Borovitskaya</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Oz4-gwOMQV_lspCKr0uidPpw-tIqGdrJNw3EWrfp8-9vLHuxkhVOccOSKg37y830mjlc5GyarBoB" height="200" width="auto" /><br><br>Change to Line 1 :    Biblioteka im Lenina<br><br>Change to Line 3 :    Arbatskaya<br><br><img src="https://lh5.googleusercontent.com/proxy/p2-R6tBeiM55dFKAdnH8GV3MqCluGpVqq1sNA3jPnSmDvLMxFW4dG1UHKAUEKAUg2RCvi2NpJ0GGwA" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/Oz4-gwOMQV_lspCKr0uidPpw-tIqGdrJNw3EWrfp8-9vLHuxkhVOccOSKg37y830mjlc5GyarBoB https://lh5.googleusercontent.com/proxy/p2-R6tBeiM55dFKAdnH8GV3MqCluGpVqq1sNA3jPnSmDvLMxFW4dG1UHKAUEKAUg2RCvi2NpJ0GGwA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.608688,55.751011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Polyanka</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.61871,55.736935,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Serpukhovskaya</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh" height="200" width="auto" /><br><br>Change to Line 5 :    Dobrininskaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.624676,55.726868,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tulskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.622509,55.708787,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nagatinskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.622765,55.683437,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nagornaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.610409,55.672985,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nakhimovskiy Prospekt</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.605643,55.6627,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sevastopolskaya</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/ydGp9D63ZzBdIPb00n1SjparM7s5ATjHLFbEtN9SR6FgNWpbHoPmL3HqsvTC5iJGBGBjXG2hlg" height="200" width="auto" /><br><br>Change to Line 11 :    Kakhovskaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/ydGp9D63ZzBdIPb00n1SjparM7s5ATjHLFbEtN9SR6FgNWpbHoPmL3HqsvTC5iJGBGBjXG2hlg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.59766,55.651222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chertanovskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.608604,55.639963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yuzhnaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.609806,55.623635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prazhskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.602768,55.610691,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ulitsa Akademika Yangelya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.600536,55.595249,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Annino</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.596245,55.583972,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bulvar Dmitriya Donskogo</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/_KtLZeTRK5s1KvNC8SSV23REGRACPya5EBjK7y2361Z_qC_4AL78ArkPCYZRi8v5qdwbezATbQ" height="200" width="auto" /><br><br>Change to Line L1 :      Ulitsa Skobelevskaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/_KtLZeTRK5s1KvNC8SSV23REGRACPya5EBjK7y2361Z_qC_4AL78ArkPCYZRi8v5qdwbezATbQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.577877,55.568859,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Linea 10</name>
+        <description><![CDATA[Lyublinskaya<br>Number of stations - 12<br>Route - 20,7 km]]></description>
+        <styleUrl>#line-99FF99-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            37.621865,55.767424,0
+            37.637186,55.764937,0
+            37.6592,55.75597,0
+            37.67962,55.74622,0
+            37.66666,55.73242,0
+            37.67615,55.71712,0
+            37.68589,55.70557,0
+            37.72739,55.69248,0
+            37.75515,55.69016,0
+            37.76236,55.67642,0
+            37.74898,55.65887,0
+            37.74353,55.64829,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trubnaya</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/oIVQZrbZ4h3aiDS7lReM0HrQB0h0d09dvjQcOAgwctNW0CAnxs6cvBB8vrZKTcy12G6TJyzckQ" height="200" width="auto" /><br><br>Change to Line 10 :    Tsvetnoi Bulvar]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/oIVQZrbZ4h3aiDS7lReM0HrQB0h0d09dvjQcOAgwctNW0CAnxs6cvBB8vrZKTcy12G6TJyzckQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.621822,55.767448,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sretensky Bulvar</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Oz4-gwOMQV_lspCKr0uidPpw-tIqGdrJNw3EWrfp8-9vLHuxkhVOccOSKg37y830mjlc5GyarBoB" height="200" width="auto" /><br><br>Change to Line 1 :    Chistye prudy<br><br>Change to Line 6 :    Turgenevskaya<br><br><img src="https://lh3.googleusercontent.com/proxy/ry5aLK_ZCBjTFsscz4h-bcgPHhTFDXdGF10LQ3jtDtEDeG3LYR3g1aiLJpuIsHnntO4gKttP9Pv6WrdD" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/Oz4-gwOMQV_lspCKr0uidPpw-tIqGdrJNw3EWrfp8-9vLHuxkhVOccOSKg37y830mjlc5GyarBoB https://lh3.googleusercontent.com/proxy/ry5aLK_ZCBjTFsscz4h-bcgPHhTFDXdGF10LQ3jtDtEDeG3LYR3g1aiLJpuIsHnntO4gKttP9Pv6WrdD</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.636843,55.764455,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chkalovskya</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/p2-R6tBeiM55dFKAdnH8GV3MqCluGpVqq1sNA3jPnSmDvLMxFW4dG1UHKAUEKAUg2RCvi2NpJ0GGwA" height="200" width="auto" /><br><br>Change to Line 3 :       Kurskaya<br><br>Change to Line 5 :      Kurskaya<br><br><img src="https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/p2-R6tBeiM55dFKAdnH8GV3MqCluGpVqq1sNA3jPnSmDvLMxFW4dG1UHKAUEKAUg2RCvi2NpJ0GGwA https://lh6.googleusercontent.com/proxy/muwgiRSs010qNJxEq3p-1vLiNAWBzDYJA4x-rat4daF9okAq3qE5-mVaS9H7alGGgm8Jv3NhLtNJr0zh</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.659116,55.756003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rimskaya</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/WA0h2hijXROXCgv75L7SGxvMM5CigRZ3fcfsKmj-lxiho1RPqT8m7Y68wcaxGtw6HKaFoIo_ksY079g1" height="200" width="auto" /><br><br>Change to Line 8 :    Ploshchad Ilicha]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/WA0h2hijXROXCgv75L7SGxvMM5CigRZ3fcfsKmj-lxiho1RPqT8m7Y68wcaxGtw6HKaFoIo_ksY079g1</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.679501,55.746223,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Krestyanskaya Zastava</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/2AH0XKuJTiTkWuwasSnmkbzHpAQ7UT6g1XV9jouFEv4F6XuENTdod93oUX2OBxBWCg-t_zB7HQAEkbMD" height="200" width="auto" /><br><br>Change to Line 7 :    Proletarskaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/2AH0XKuJTiTkWuwasSnmkbzHpAQ7UT6g1XV9jouFEv4F6XuENTdod93oUX2OBxBWCg-t_zB7HQAEkbMD</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.666197,55.732426,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dubrovka</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.676067,55.717129,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kozhukhovskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.685848,55.705593,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pechatniki</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.727177,55.692486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Volzhskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.754944,55.690186,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lyublino</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.762241,55.676422,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bratislavskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.749107,55.658897,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marino</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.743488,55.648342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Line 11</name>
+        <description><![CDATA[Kakhovskaya<br>Number of stations - 3<br>Route - 3,3 km]]></description>
+        <styleUrl>#line-66FFFF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            37.59676,55.652939,0
+            37.62014,55.653591,0
+            37.647774,55.654514,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Kakhovskaya</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/sJCSmjsw-Ta6mNzA6m-eNdM79Fr9ZpdghSM7lfJmkGD_bgzBLkRXXUoDvvIxciVFmfAFFLTMydaIWA" height="200" width="auto" /><br><br>Change to Line 9 :    Sevastopolskaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/sJCSmjsw-Ta6mNzA6m-eNdM79Fr9ZpdghSM7lfJmkGD_bgzBLkRXXUoDvvIxciVFmfAFFLTMydaIWA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.596931,55.65292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Varshavskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.620041,55.653595,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kashirskaya</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/B7ufD40IKJki2DGZez5XY8N8sRdO_loSmxxnaUnDYPT7-23p-68QZ5STOGlLdOf4Q75k99IsZ66s414" height="200" width="auto" /><br><br>Change to Line 2 :       Kashirskaya]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/B7ufD40IKJki2DGZez5XY8N8sRdO_loSmxxnaUnDYPT7-23p-68QZ5STOGlLdOf4Q75k99IsZ66s414</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            37.647572,55.653185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Linea 4 Azzurra Diramazione</name>
+        <description>Filyovskaya</description>
+        <styleUrl>#line-33CCFF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            37.558094,55.741268,0
+            37.543285,55.749313,0
+            37.532944,55.748299,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line L1</name>
+        <description>Butovskaya</description>
+        <styleUrl>#line-99FFFF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            37.5759,55.56907,0
+            37.55629,55.54839,0
+            37.542171,55.545678,0
+            37.531013,55.542328,0
+            37.51693,55.53817,0
+            37.5159,55.53799,0
+            37.514706,55.538151,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Ulitsa Skobelevskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.55629,55.548252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bulvar Admirala Ushakova</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.541313,55.545241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ulitsa Gorchakova</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.532127,55.542034,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Buninskaya Alleya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.515778,55.537861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ulitsa Starokachalovskaya</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            37.575859,55.568714,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
